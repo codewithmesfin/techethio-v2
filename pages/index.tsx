@@ -82,7 +82,7 @@ export default function Index() {
       img: "https://appmaster.io/api/_files/PqV7MuNwv89GrZvBd4LNNK/download/"
     },
   ]
-  const sols2=[
+  const sols2 = [
     {
       title: "Digital Marketing",
       desc: "Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication . This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channel.",
@@ -184,7 +184,7 @@ export default function Index() {
               <div className="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
                 {features.map((feature) => (
                   <div data-aos="zoom-in-up" data-aos-duration="3000" key={feature.name} className="relative flex items-center md:items-start  gap-6 sm:flex-row md:flex-col lg:flex-row">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white sm:shrink-0">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-500 text-white sm:shrink-0">
                       <feature.icon className="h-8 w-8" aria-hidden="true" />
                     </div>
                     <div className="sm:min-w-0 sm:flex-1">
@@ -214,7 +214,7 @@ export default function Index() {
                   <div>
                     <div className="md:px-6 py-4">
                       <div className="font-extrabold text-lg mb-2">{x.title} </div>
-                      <p className="text-gray-700  text-sm">
+                      <p className="text-gray-700">
                         {x.desc}
                       </p>
                     </div>
@@ -231,7 +231,7 @@ export default function Index() {
                   <div>
                     <div className="md:px-6 py-4">
                       <div className="font-extrabold text-lg mb-2">{x.title} </div>
-                      <p className="text-gray-700  text-sm">
+                      <p className="text-gray-700">
                         {x.desc}
                       </p>
                     </div>
@@ -242,6 +242,35 @@ export default function Index() {
           </div>
         </div>
 
+      </section>
+
+      <section>
+        <div className="p-10">
+          <h2 className="text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <span className="block py-2">Ready to dive in?</span>
+            <span className="block text-blue-600">Contact TechEthio today.</span>
+          </h2>
+          <div className="flex justify-center py-10">
+            <div className="mt-8 flex md:space-x-20 lg:mt-0 lg:flex-shrink-0">
+              <div className="inline-flex rounded-md shadow">
+                <Link
+                  href="#"
+                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-blue-600 px-10 py-2 text-base font-medium text-white hover:bg-blue-700"
+                >
+                  Get started
+                </Link>
+              </div>
+              <div className="ml-3 inline-flex rounded-md shadow">
+                <Link
+                  href="#"
+                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-10 py-2 text-base font-medium text-blue-600 hover:bg-blue-50"
+                >
+                  Learn more
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   )
