@@ -255,7 +255,7 @@ export default function Index() {
               <div className="inline-flex rounded-md shadow">
                 <Link
                   href="#"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-blue-600 px-10 py-2 text-base font-medium text-white hover:bg-blue-700"
+                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-blue-600 px-4 md:px-10 py-2 text-base font-medium text-white hover:bg-blue-700"
                 >
                   Get started
                 </Link>
@@ -263,7 +263,7 @@ export default function Index() {
               <div className="ml-3 inline-flex rounded-md shadow">
                 <Link
                   href="#"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-10 py-2 text-base font-medium text-blue-600 hover:bg-blue-50"
+                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-4 md:px-10 py-2 text-base font-medium text-blue-600 hover:bg-blue-50"
                 >
                   Learn more
                 </Link>
