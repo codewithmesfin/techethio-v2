@@ -82,6 +82,18 @@ export default function Index() {
       img: "https://appmaster.io/api/_files/PqV7MuNwv89GrZvBd4LNNK/download/"
     },
   ]
+  const sols2=[
+    {
+      title: "Digital Marketing",
+      desc: "Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication . This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channel.",
+      img: "https://www.kbrtec.com.br/blog/wp-content/uploads/2021/07/por-que-marketing-digital-e-importante-em-santos-kbr-tec-1150x650.jpg"
+    },
+    {
+      title: "Consultancy",
+      desc: "Consulting Services means the provision of expertise or strategic advice that is presented for consideration and decision-making . A Non-consulting Service Provider is an individual or a company who contracts to provide services, other than consulting services to another individual or business.",
+      img: "https://thumbs.dreamstime.com/b/financial-advisory-services-group-business-advisor-showing-plan-investment-to-clients-consultancy-office-194541286.jpg"
+    },
+  ]
 
   return (
     <div>
@@ -195,14 +207,29 @@ export default function Index() {
               TechEthio develops apps and websites that simple to use, powerful, and affordable that will fit your business needs. We will provide you platforms that will engineering the rails on which businesses because we believe a secure, trusted, reliable, consistent, and affordable business network will act as a catalyst to unlock business opportunities everywhere.At the core of what we do is a better user experience and connectivity.
             </p>
             <img className="max-h-[800px]" src="https://blog.vantagecircle.com/content/images/2020/08/technology-in-the-workplace.png" alt="" />
+            {
+              sols2.map((x, i) => <div key={i} data-aos="zoom-in-down" data-aos-duration="3000" className="py-1">
+                <div className="md:flex items-center md:space-x-4">
+                  <img className="w-32 h-32  hidden md:block rounded object-cover" src={x.img} alt="Sunset in the mountains" />
+                  <div>
+                    <div className="md:px-6 py-4">
+                      <div className="font-extrabold text-lg mb-2">{x.title} </div>
+                      <p className="text-gray-700  text-sm">
+                        {x.desc}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>)
+            }
           </div>
           <div className="md:w-1/2 px-3">
             {
               solutions.map((x, i) => <div key={i} data-aos="zoom-in-down" data-aos-duration="3000" className="py-1">
-                <div className="flex items-center space-x-4">
-                  <img className="w-32 h-32 rounded object-cover" src={x.img} alt="Sunset in the mountains" />
+                <div className="md:flex items-center md:space-x-4">
+                  <img className="w-32 h-32 hidden md:block rounded object-cover" src={x.img} alt="Sunset in the mountains" />
                   <div>
-                    <div className="px-6 py-4">
+                    <div className="md:px-6 py-4">
                       <div className="font-extrabold text-lg mb-2">{x.title} </div>
                       <p className="text-gray-700  text-sm">
                         {x.desc}
