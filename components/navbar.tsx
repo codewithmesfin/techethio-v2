@@ -61,7 +61,7 @@ export default function Navbar() {
                                 </Link>
                             </div>
                             <div className="-mr-2 flex items-center md:hidden">
-                                <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                                <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-blue-600 hover:bg-gray-100 hover:text-gray-500 focus:outline-none ">
                                     <span className="sr-only">Open main menu</span>
                                     <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                                 </Popover.Button>
@@ -83,15 +83,16 @@ export default function Navbar() {
                         >
                             <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
                                 <div className="flex items-center justify-between px-5 pt-4">
-                                    <div>
-                                        <img
-                                            className="h-8 w-auto"
-                                            src="https://tailwindui.com/img/logos/mark.svg?color=blue&shade=600"
-                                            alt=""
-                                        />
-                                    </div>
+                                   <Link href="/" className='flex space-x-2 items-center'>
+                                            <img
+                                                alt="Your Company"
+                                                className="h-8 w-auto sm:h-10"
+                                                src="/logo.png"
+                                            />
+                                            <span className='text-2xl font-extrabold text-blue-600'>TechEthio</span>
+                                        </Link>
                                     <div className="-mr-2">
-                                        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                                        <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-red-600 focus:outline-none">
                                             <span className="sr-only">Close main menu</span>
                                             <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                                         </Popover.Button>
