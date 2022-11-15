@@ -30,13 +30,14 @@ export default function Navbar() {
                             <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                                 <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                                     <div className="flex w-full items-center justify-between md:w-auto">
-                                        <a href="#">
+                                        <Link href="/" className='flex space-x-2 items-center'>
                                             <img
                                                 alt="Your Company"
                                                 className="h-8 w-auto sm:h-10"
-                                                src="/logo2.svg"
+                                                src="/logo.png"
                                             />
-                                        </a>
+                                            <span className='text-2xl font-extrabold text-blue-600'>TechEthio</span>
+                                        </Link>
 
                                     </div>
                                 </div>

@@ -54,11 +54,11 @@ const Footer = () => {
     ]
     return (
         <>
-            <section className="bg-blue-600 pb-3 pt-10">
+            <section className="bg-blue-600">
                 <div className="mx-auto max-w-7xl">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10 p-3">
                         {
-                            links.map((x, i) => <div key={i}>
+                            links.map((x, i) => <div key={i} className="pt-10 pb-4">
                                 <h1 className="text-white font-extrabold pb-2 text-xl">{x.title} </h1>
                                 {x.children.map((y, j) => <div key={j} className="p-1 ">
                                     <Link href={y.href} className="text-white">{y.title} </Link>
