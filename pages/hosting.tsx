@@ -5,7 +5,7 @@ export default function Hosting() {
     return <div className="py-20 px-3 md:px-0">
         <section className="py-20">
             <div className="mx-auto md:max-w-[70%]">
-                <h1 className="text-3xl md:text-8xl font-extrabold text-center">Simple, predictable pricing</h1>
+                <h1 className="text-3xl md:text-8xl font-extrabold text-center text-blue-600">Simple, predictable pricing</h1>
             </div>
         </section>
         <section>
@@ -14,12 +14,12 @@ export default function Hosting() {
                     hostings.map((x: any, i: number) => <div  data-aos="zoom-in-up" data-aos-duration="3000" key={i} className="flex flex-wrap items-center justify-center w-full max-w-4xl mt-8">
                         <div className="flex flex-col flex-grow mt-8 overflow-hidden bg-white rounded-lg shadow-lg">
                             <div className="flex flex-col flex-grow overflow-hidden bg-white ">
-                                <div className={`flex flex-col items-center p-10 bg-${x.bg?x.bg:"gray-200"}`}>
-                                    <span className={`font-semibold text-${x.color}`}>{x.title} </span>
-                                    <div className="flex items-center">
-                                        <span className={`text-3xl text-${x.color}`}>$</span>
-                                        <span className={`text-5xl font-bold text-${x.color}`}>{x.amount} </span>
-                                        <span className={`text-2xl text-${x.color}`}>/year</span>
+                                <div className={`flex flex-col items-center p-10 bg-blue-600`}>
+                                    <span className="font-semibold text-white">{x.title} </span>
+                                    <div className="flex items-center text-white">
+                                        <span className="text-3xl">$</span>
+                                        <span className="text-5xl font-bold">{x.amount} </span>
+                                        <span className="text-2xl text-white">/year</span>
                                     </div>
                                 </div>
                             </div>

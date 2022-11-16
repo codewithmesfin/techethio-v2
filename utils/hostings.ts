@@ -2,7 +2,6 @@ const hostings: any = [
     {
         title: "Basic",
         amount: '50',
-        bg: "green-500",color:"white",
         features: [
             "For Fast Static sites",
             "HTML,CSS & JS",
@@ -16,7 +15,6 @@ const hostings: any = [
     {
         title: "Standard",
         amount: '60',
-        bg: "blue-600",color:"white",
         features: [
             "For Fast Static sites",
             "HTML,CSS & JS",
@@ -34,7 +32,7 @@ const hostings: any = [
     },
     {
         title: "Business",
-        amount: '65', bg: "green-500",color:"white",
+        amount: '65', 
         features: [
             "For Fast Static sites",
             "HTML,CSS & JS",
@@ -50,7 +48,7 @@ const hostings: any = [
     },
     {
         title: "Managed Hosting",
-        amount: '70', bg: "blue-600",color:"white",
+        amount: '70',
         features: [
             "For Fast Static sites",
             "HTML,CSS & JS",
