@@ -4,7 +4,7 @@ import React from "react";
 import { teams } from "../utils/teams";
 
 export default function Team() {
-    return <div>
+    return <div className="px-3 md:px-0">
         <div className="pb-16 mx-auto md:max-w-[700px]">
             <h2 className="text-3xl py-3 text-center font-bold tracking-tight text-gray-900 sm:text-6xl">
                 Our Teams
@@ -15,7 +15,7 @@ export default function Team() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {
-                teams.map((x: any, i: number) => <div key={i} className={`mb-16 shadow rounded bg-${x.bg}`}>
+                teams.map((x: any, i: number) => <div  data-aos="zoom-in-up" data-aos-duration="3000" key={i} className={`mb-16 shadow rounded bg-${x.bg}`}>
                     <div className="p-2">
                         <div className="flex items-center spac-y-10">
                             <Image className="rounded-full p-2 h-[150px]" width={150} height={150} src={x.img} alt={x.name} />
