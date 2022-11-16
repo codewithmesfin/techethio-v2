@@ -5,7 +5,7 @@ export default function Hosting() {
     return <div className="py-20 px-3 md:px-0">
         <section className="py-20">
             <div className="mx-auto md:max-w-[70%]">
-                <h1 className="text-3xl md:text-8xl font-extrabold text-center text-blue-600">Simple, predictable pricing</h1>
+                <h1 className="text-6xl md:text-8xl font-extrabold text-center text-blue-600">Simple, predictable pricing</h1>
             </div>
         </section>
         <section>
