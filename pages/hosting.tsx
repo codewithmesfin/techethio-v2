@@ -14,12 +14,12 @@ export default function Hosting() {
                     hostings.map((x: any, i: number) => <div  data-aos="zoom-in-up" data-aos-duration="3000" key={i} className="flex flex-wrap items-center justify-center w-full max-w-4xl mt-8">
                         <div className="flex flex-col flex-grow mt-8 overflow-hidden bg-white rounded-lg shadow-lg">
                             <div className="flex flex-col flex-grow overflow-hidden bg-white ">
-                                <div className="flex flex-col items-center p-10 bg-gray-200">
-                                    <span className="font-semibold">{x.title} </span>
+                                <div className={`flex flex-col items-center p-10 bg-${x.bg}`}>
+                                    <span className={`font-semibold text-${x.color}`}>{x.title} </span>
                                     <div className="flex items-center">
-                                        <span className="text-3xl">$</span>
-                                        <span className="text-5xl font-bold">{x.amount} </span>
-                                        <span className="text-2xl text-gray-500">/year</span>
+                                        <span className={`text-3xl text-${x.color}`}>$</span>
+                                        <span className={`text-5xl font-bold text-${x.color}`}>{x.amount} </span>
+                                        <span className={`text-2xl text-${x.color}`}>/year</span>
                                     </div>
                                 </div>
                             </div>
