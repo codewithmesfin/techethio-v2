@@ -109,12 +109,12 @@ export default function Navbar() {
                                         </a>
                                     ))}
                                 </div>
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/contact-us"
                                     className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-blue-600 hover:bg-gray-100"
                                 >
-                                    Log in
-                                </a>
+                                    Contact us
+                                </Link>
                             </div>
                         </Popover.Panel>
                     </Transition>
