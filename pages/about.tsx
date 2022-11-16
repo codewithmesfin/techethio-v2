@@ -21,9 +21,9 @@ export default function About() {
             subtitle: "Our team is looking to serve your long-term business goals. Unlike other consulting services, we maintain high retention rates, so that you’ll continue to work with engineers you trust for your business."
         }
     ]
-    return <div className="py-12">
+    return <div className="py-12 px-3 md:px-0">
         <section>
-            <div className="flex justify-between md:space-x-10 items-center">
+            <div className="md:flex justify-between md:space-x-10 items-center">
                 <div className="md:w-1/2">
                     <h1 className="text-2xl md:text-6xl font-extrabold">Who we are ? </h1>
                     <h1 className="text-xl font-semibold py-3">We are working hard to solves problems in Africa</h1>
@@ -47,7 +47,7 @@ export default function About() {
                 <h1 className="text-2xl md:text-6xl text-center font-extrabold">Our Core Values </h1>
             </div>
             <div className="md:flex md:justify-between items-center md:space-x-10">
-                {values.map((x, i) => <div key={i} className="max-w-[300px]" data-aos="zoom-in-down" data-aos-duration="3000">
+                {values.map((x, i) => <div key={i} className="max-w-[300px] py-3" data-aos="zoom-in-down" data-aos-duration="3000">
                     <div className="flex justify-center">
                         <Image src={x.img} alt="about-us"
                             className="object-cover rounded-full w-[200px] h-[200px]"

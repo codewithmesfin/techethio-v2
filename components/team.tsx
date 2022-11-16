@@ -15,7 +15,9 @@ export default function Team() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {
-                teams.map((x: any, i: number) => <div  data-aos="zoom-in-up" data-aos-duration="3000" key={i} className={`mb-16 shadow rounded bg-${x.bg?x.bg:"gray-500"}`}>
+                teams.map((x: any, i: number) => <div  data-aos="zoom-in-up" data-aos-duration="3000" key={i} className={`mb-16 shadow rounded bg-${x.bg?x.bg:"gray-500"}`}
+                style={{backgroundColor:x.color}}
+                >
                     <div className="p-2">
                         <div className="flex items-center spac-y-10 md:space-x-3">
                             <Image className="rounded-full p-2 h-[150px]" width={150} height={150} src={x.img} alt={x.name} />
