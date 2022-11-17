@@ -10,7 +10,7 @@ interface PROPS {
     success?: boolean
     isTextArea?: boolean;
     rows?: number;
-    onchange: any
+    onchange?: any
 }
 
 export default function Input({ label, isTextArea, placeholder, rows ,type}: PROPS) {
