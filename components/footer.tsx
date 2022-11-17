@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link"
 import Image from "next/image";
+import GoogleMap from "./GoogleMap";
 
 
 const Footer = () => {
@@ -54,6 +55,9 @@ const Footer = () => {
     ]
     return (
         <>
+          <section>
+        <GoogleMap/>
+      </section>
             <section className="bg-blue-600">
                 <div className="mx-auto max-w-7xl">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-10 p-3">

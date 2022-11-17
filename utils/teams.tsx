@@ -3,7 +3,7 @@ const teams: any = [
         img: "/sintayehu.jpeg",
         name: "Sintayehu Shibeshi",
         role: "Frappe Developer",
-        bg: "gray-100", color: "black-600",
+        bg: "bg-gray-100", color: "black-600",
         linkedin: "https://www.linkedin.com/in/sinteshibeshi",
         github: "https://github.com/sintayehushibeshi",
         bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
