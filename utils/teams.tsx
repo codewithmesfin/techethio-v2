@@ -24,9 +24,10 @@ const teams: any = [
         bg: "gray-200", color: "black-600",
         linkedin: "https://www.linkedin.com/in/roberawork",
         github: "https://github.com/Robera16",
-        bio: "Softeare developer with Robust problems solving skills and proven experience in creating and designing software in a test-driven environment. Robera is also a Gold Medalist from Addis Ababa University."
-    }, {
-        img: "/logo.png",
+        bio: "Software developer with Robust problems solving skills and proven experience in creating and designing software in a test-driven environment. Robera is also a Gold Medalist from Addis Ababa University."
+    },
+    {
+        img: "/beti.jpeg",
         name: "Bethlehem Sileshi",
         role: "Requirement Specialist",
         bg: "white", color: "black-600",

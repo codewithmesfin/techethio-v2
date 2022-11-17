@@ -1,5 +1,5 @@
 import React from "react";
-import { hostings } from "../utils/hostings";
+import { hostings } from "../../utils/hostings";
 
 export default function Hosting() {
     return <div className="py-20 px-3 md:px-0">
