@@ -22,7 +22,7 @@ export default function Team() {
                             <Image className="rounded-full p-2 h-[150px]" width={150} height={150} src={x.img} alt={x.name} />
                             <div>
                                 <h1 className={`text-2xl font-bold`}>{x.name} </h1>
-                                <h1 className={`text-md py-2  font-bold`}>{x.role} </h1>
+                                <h1 className={`text-md py-2 text-green-600 font-bold`}>{x.role} </h1>
                                 <p className={`text-xs`}>{x.bio} </p>
                                 <div className="flex border-t mt-2  pt-2 space-x-2 md:space-x-20">
                                     <Link className={`text-blue-600 font-semibold`} href={x.linkedin}>Linkedin </Link>

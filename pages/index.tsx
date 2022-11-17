@@ -13,30 +13,30 @@ export default function Index() {
     {
       name: 'Competitive Innovations',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Think big. Work smart! Let us help you manage the entire ideation process and accelerate innovation outcomes',
       icon: GlobeAltIcon,
     },
     {
       name: 'No hidden fees',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'We are a trusted partner for your business. We believe in communications and solving our clients problems in affordable price. We do not have any hidden cost or pricing. We are transparent.',
       icon: ScaleIcon,
     },
     {
       name: 'Customer value',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'We are working hard to make our customers happy. Customers are our valuable assets.',
       icon: BoltIcon,
     },
     {
       name: 'Trusted partner',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Our team is looking to serve your long-term business goals. Unlike other consulting services, we maintain high retention rates, so that you’ll continue to work with engineers you trust for your business.',
       icon: DevicePhoneMobileIcon,
     },
   ]
 
-  
+
 
   return (
     <div>
@@ -60,24 +60,24 @@ export default function Index() {
                   <span className="block text-blue-600 xl:inline">grow your business </span>
                 </h1>
                 <p data-aos="fade-up" data-aos-duration="3000" className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                  We are dedicated to creating the highest quality softwareproducts with exceptional brands of any size. Our goal is toconsistently provide our customers with extraordinary services, offering fast, reliable turnarounds with low minimums and high volume capacity.
+                  We are dedicated to creating the highest quality software products with exceptional brands of any size. Our goal is to consistently provide our customers with extraordinary services, offering fast, reliable turn arounds with low minimums and high volume capacity.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <a
-                      href="#"
+                    <Link
+                      href="/contact-us"
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 md:py-4 md:px-10 md:text-lg"
                     >
                       Get Started
-                    </a>
+                    </Link>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <a
-                      href="#"
+                    <Link
+                      href="/services"
                       className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-100 px-8 py-3 text-base font-medium text-blue-700 hover:bg-blue-200 md:py-4 md:px-10 md:text-lg"
                     >
                       Main Services
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function Index() {
       </section>
 
       <section className="pt-12" data-aos="zoom-in-up" data-aos-duration="3000">
-        <StatusCount/>
+        <StatusCount />
       </section>
 
       <section>
@@ -133,7 +133,8 @@ export default function Index() {
           <div className="md:w-1/2 px-3">
             <h1 className="text-xl md:text-5xl font-extrabold py-3">Learn what TechEthio can help you.</h1>
             <p className="py-3 pb-10">
-              TechEthio develops apps and websites that simple to use, powerful, and affordable that will fit your business needs. We will provide you platforms that will engineering the rails on which businesses because we believe a secure, trusted, reliable, consistent, and affordable business network will act as a catalyst to unlock business opportunities everywhere.At the core of what we do is a better user experience and connectivity.
+              TechEthio develops apps and websites that are simple to use, powerful, and affordable that will fit your business needs. 
+              We will provide you platforms that will engineering the rails on which  businesses flows because we believe a secure, trusted, reliable, consistent, and affordable business network will act as a catalyst to unlock new opportunities everywhere.
             </p>
             <img className="max-h-[800px]" src="https://blog.vantagecircle.com/content/images/2020/08/technology-in-the-workplace.png" alt="" />
             {
@@ -174,7 +175,7 @@ export default function Index() {
       </section>
 
       <section className='py-20'>
-        <Team/>
+        <Team />
       </section>
 
       {/* <section>

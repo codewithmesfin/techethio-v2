@@ -2,7 +2,7 @@ const teams: any = [
     {
         img: "/sintayehu.jpeg",
         name: "Sintayehu Shibeshi",
-        role: "Frappe Developer",
+        role: "Full Stack Developer",
         bg: "bg-gray-100", color: "black-600",
         linkedin: "https://www.linkedin.com/in/sinteshibeshi",
         github: "https://github.com/sintayehushibeshi",
@@ -11,7 +11,7 @@ const teams: any = [
     {
         img: "/yohannes.jpeg",
         name: "Yohannes Paulos",
-        role: "Flutter Developer",
+        role: "Frontend Developer",
         bg: "blue-500", color: "white",
         linkedin: "https://www.linkedin.com/in/jon21paulos/",
         github: "http://github.com/Jon21paulos",
@@ -20,11 +20,11 @@ const teams: any = [
     {
         img: "/robera.jpeg",
         name: "Robera Workneh",
-        role: "Frappe Developer",
+        role: "Full Stack Developer",
         bg: "gray-200", color: "black-600",
         linkedin: "https://www.linkedin.com/in/roberawork",
         github: "https://github.com/Robera16",
-        bio: "Softeare developer with Robust problems solving skills and proven experience in creating and designing software in a test-driven environment"
+        bio: "Softeare developer with Robust problems solving skills and proven experience in creating and designing software in a test-driven environment. Robera is also a Gold Medalist from Addis Ababa University."
     }, {
         img: "/logo.png",
         name: "Bethlehem Sileshi",
