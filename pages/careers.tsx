@@ -24,9 +24,9 @@ export default function Careers() {
                         </p>
                     </div>
                 </div>
-                <div className="md:w-1/2 py-3 min-h-[500px] md:min-h-[1000px]">
+                <div className="md:w-1/2 py-3 ">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzUfm0plkmxQcICQPXiyelTVWRajpvxx_ur-K7XbG53870mA/viewform?embedded=true"
-                        width="100%" height="100%"
+                              width="100%" height="1000"
                      >Loading…</iframe>
                     {/* <div className="md:shadow rounded md:p-5">
                         <div className="grid md:grid-cols-2 gap-4">

@@ -83,7 +83,7 @@ export default function Navbar() {
                         >
                             <div className="overflow-hidden rounded-lg bg-white shadow-md">
                                 <div className="flex items-center justify-between px-5 pt-4">
-                                   <Link href="/" className='flex space-x-2 items-center'>
+                                   <Link href="/" className='flex space-x-2 items-center border-none'>
                                             <img
                                                 alt="Your Company"
                                                 className="h-8 w-auto sm:h-10"
@@ -109,12 +109,12 @@ export default function Navbar() {
                                         </a>
                                     ))}
                                 </div>
-                                <Link
+                                <a
                                     href="/contact-us"
                                     className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-blue-600 hover:bg-gray-100"
                                 >
                                     Contact us
-                                </Link>
+                                </a>
                             </div>
                         </Popover.Panel>
                     </Transition>
