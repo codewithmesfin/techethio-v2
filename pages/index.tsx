@@ -1,8 +1,8 @@
 
 import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import Head from 'next/head'
 
 import Link from "next/link"
-import RichUsButtons from '../components/RichUsButtons'
 import StatusCount from "../components/statusCount"
 import Team from '../components/team'
 import { sols2, solutions } from '../utils/services.list'
@@ -40,6 +40,16 @@ export default function Index() {
 
   return (
     <div>
+       <Head>
+        <title>
+         TechEthio
+        </title>
+        <meta
+          name="description"
+          content="We are dedicated to creating the highest quality software products with exceptional brands of any size. Our goal is to consistently provide our customers with extraordinary services, offering fast, reliable turn arounds with low minimums and high volume capacity"
+          key="desc"
+        />
+      </Head>
       <section>
         <div className="relative overflow-hidden bg-white px-3">
           <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
