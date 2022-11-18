@@ -33,7 +33,7 @@ const teams: any = [
         bg: "white", color: "black-600",
         linkedin: "https://www.linkedin.com/in/netsanet-mesfin/",
         github: "https://github.com/freedoom16/",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        bio: "A Computer Engineer striving to deliver the best solutions to clients"
     },
     {
         img: "/netsanet.jpeg",

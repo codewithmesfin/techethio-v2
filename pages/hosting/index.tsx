@@ -1,42 +1,51 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Hosting() {
     const partners = [
         {
             logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png",
-            title: "Digital Ocean"
+            title: "Digital Ocean",
+            hrfe:"https://www.digitalocean.com"
         },
         {
             logo: "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
-            title: "Amazon Web Service"
+            title: "Amazon Web Service",
+            href:"https://aws.amazon.com"
         },
         {
-            logo:"https://www.freecodecamp.org/news/content/images/2020/10/gcp.png",
-            title:"Google Cloud"
+            logo: "https://www.freecodecamp.org/news/content/images/2020/10/gcp.png",
+            title: "Google Cloud",
+            href:"https://cloud.google.com"
         },
         {
-            logo:"https://www.conseil3d.com/wp-content/uploads/2021/06/logo-microsoft-cloud-azure-png.png",
-            title:"Azure"
+            logo: "https://www.conseil3d.com/wp-content/uploads/2021/06/logo-microsoft-cloud-azure-png.png",
+            title: "Azure",
+            href:"https://azure.microsoft.com/en-us"
         },
         {
-            logo:"https://cdn.mos.cms.futurecdn.net/inqKFrqifsSMBCKEwXAWQG-1200-80.jpg",
-            title:"Bluehost"
+            logo: "https://cdn.mos.cms.futurecdn.net/inqKFrqifsSMBCKEwXAWQG-1200-80.jpg",
+            title: "Bluehost",
+            href:"https://www.bluehost.com/"
         },
         {
-            logo:"http://photos.prnewswire.com/prnfull/20150330/195302LOGO",
-            title:"GoDaddy"
+            logo: "http://photos.prnewswire.com/prnfull/20150330/195302LOGO",
+            title: "GoDaddy",
+            href:"https://www.godaddy.com/en-ie"
         },
         {
-logo:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1200px-IBM_logo.svg.png",
-title:"IBM"
+            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/1200px-IBM_logo.svg.png",
+            title: "IBM",
+            href:"https://www.ibm.com/us-en"
         },
         {
-            logo:"https://ethiopianembassy.org/wp-content/uploads/2021/06/Ethio-Tele.jpeg",
-            title:"Ethio telecom"
+            logo: "https://ethiopianembassy.org/wp-content/uploads/2021/06/Ethio-Tele.jpeg",
+            title: "Ethio telecom",
+            href:"https://www.ethiotelecom.et/"
         }
     ]
     return <div>
-        <section className="py-20 mx-auto pt-12 max-w-7xl">
+        <section className="py-20 mx-auto pt-20 max-w-7xl">
             <div>
                 <h1 className="text-6xl font-extrabold text-center md:text-8xl">Hosting</h1>
                 <h1 className="text-4xl py-3 font-extrabold text-center md:text-8xl">
@@ -47,7 +56,9 @@ title:"IBM"
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {
                     partners.map((x, i) => <div key={i} className="p-5" data-aos="zoom-in-down" data-aos-duration="3000">
-                        <img className="w-full object-contain h-full" src={x.logo} alt="" />
+                       <Link target="_blank" href={`${x.href}`}>
+                       <img className="w-full object-contain h-full" src={x.logo} alt="" />
+                       </Link>
                     </div>)
                 }
             </div>

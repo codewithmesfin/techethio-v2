@@ -18,8 +18,11 @@ export default function ContactUs() {
         </section>
         <section className="pb-10 px-3 md:px-0 pb-32">
             <div className="md:flex justify-between  md:space-x-10">
-                <div className="md:w-1/2">
-                    <div className="md:shadow rounded p-3 md:p-6">
+                <div className="md:w-1/2 py-3 min-h-[500px] md:min-h-[1000px]">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffjKcz6Fuf9bwhTrf2t8QlxAmTOc6GvSi4Hf2EYW3BJa62IQ/viewform?embedded=true"
+                        width="100%" height="100%"
+                     >Loading…</iframe>
+                    {/* <div className="md:shadow rounded p-3 md:p-6">
                         <div className="grid md:grid-cols-2 gap-4">
                             <div className="py-2">
                                 <Input label="Full Name" placeholder="Mesfin Tsegaye" />
@@ -41,7 +44,7 @@ export default function ContactUs() {
                             <button className="w-full text-white md:text-lg rounded-lg bg-blue-600 p-2 md:p-2.5">Submit</button>
                             <button className="w-full text-white md:text-lg rounded-lg bg-red-600 p-2 md:p-2.5">Clear</button>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="md:w-1/2 py-3 hidden md:block">
                     <div className="grid grid-cols-2 gap-4">

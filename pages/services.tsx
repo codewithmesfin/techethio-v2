@@ -16,7 +16,7 @@ export default function Services() {
                 {
                     services.map((x, i) => <div data-aos="zoom-in-down" data-aos-duration="3000" className="cursor-pointer flex-shrink px-4 max-w-full w-full sm:w-1/2 md:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" key={i} data-wow-duration="1s">
                         <div className="pb-6 rounded-md mb-12 shadow-xl bg-white dark:bg-gray-800 transform transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl">
-                            <img className="w-full rounded-t" src={x.img} alt="images" />
+                            <img className="w-full rounded-t object-contain rounded-lg max-h-72 " src={x.img} alt="images" />
                             <div className="px-6 py-4">
                                 <div className="font-bold text-xl mb-2">{x.title} </div>
                                 <p className="text-gray-700 text-base">{x.desc} </p>
