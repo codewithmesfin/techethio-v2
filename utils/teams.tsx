@@ -6,7 +6,7 @@ const teams: any = [
         bg: "bg-gray-100", color: "black-600",
         linkedin: "https://www.linkedin.com/in/sinteshibeshi",
         github: "https://github.com/sintayehushibeshi",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        bio: "Does not have bio"
     },
     {
         img: "/yohannes.jpeg",
@@ -15,7 +15,7 @@ const teams: any = [
         bg: "blue-500", color: "white",
         linkedin: "https://www.linkedin.com/in/jon21paulos/",
         github: "http://github.com/Jon21paulos",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        bio: "Does not have bio"
     },
     {
         img: "/robera.jpeg",
@@ -42,7 +42,7 @@ const teams: any = [
         bg: "white", color: "black-600",
         linkedin: "https://www.linkedin.com/in/netsanet-mesfin/",
         github: "https://github.com/freedoom16/",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        bio: "Does not have bio"
     },
     {
         img: "/hiwot.jpeg",
@@ -51,7 +51,7 @@ const teams: any = [
         bg: "white", color: "black-600",
         linkedin: "https://www.linkedin.com/in/netsanet-mesfin/",
         github: "https://github.com/freedoom16/",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        bio: "React fan Frontend developer with team playing skills, focused on achieving project objectives with speed and accuracy"
     },
 ]
 export { teams }
