@@ -15,7 +15,7 @@ const teams: any = [
         bg: "blue-500", color: "white",
         linkedin: "https://www.linkedin.com/in/jon21paulos/",
         github: "http://github.com/Jon21paulos",
-        bio: "Does not have bio"
+        bio: "A software developer who enjoys utilizing technology to improve people's lives. Fascinated about coding, internet, software, web and designing."
     },
     {
         img: "/robera.jpeg",
