@@ -6,7 +6,7 @@ const teams: any = [
         bg: "bg-gray-100", color: "black-600",
         linkedin: "https://www.linkedin.com/in/sinteshibeshi",
         github: "https://github.com/sintayehushibeshi",
-        bio: "Does not have bio"
+        bio: "A progress-focused, motivated and goal-oriented software developer with problem-solving skills and experience in designing and developing ERP software"
     },
     {
         img: "/yohannes.jpeg",
@@ -42,7 +42,7 @@ const teams: any = [
         bg: "white", color: "black-600",
         linkedin: "https://www.linkedin.com/in/netsanet-mesfin/",
         github: "https://github.com/freedoom16/",
-        bio: "Does not have bio"
+        bio: ""
     },
     {
         img: "/hiwot.jpeg",
