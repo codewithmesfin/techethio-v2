@@ -1,7 +1,7 @@
 const portfolios:any=[
     {
         title: "Share Gebeya",
-       img:"https://img.freepik.com/premium-vector/peer-peer-trading-p2p-lending-tiny-people-enter-into-deposit-agreement-invest-e-money_501813-1837.jpg?w=1480",
+       img:"/sharegebeya.jpeg",
        href:"https://sharegebeya.com"
       },
       {
