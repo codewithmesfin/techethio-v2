@@ -11,12 +11,12 @@ const portfolios:any=[
       },
       {
         title: "ERP System for Kenema Pharmacies Enyterprise",
-       img:"https://img.freepik.com/free-photo/warehouse-pharmacy_1161-231.jpg?w=2000&t=st=1668757484~exp=1668758084~hmac=14b2fb78da586b4c80d710a92177e8000bed1d87fa8ccb686a5cc6958b44f8a5",
+       img:"kpe.png",
        href:"https://kenemape.com"
       },
       {
         title: "HoneyDu",
-       img:"https://img.freepik.com/free-photo/front-view-herbal-tea-concept-with-honey_23-2148555220.jpg?w=1800&t=st=1668757400~exp=1668758000~hmac=9e935280a22ad32164d2d0ea471e7843674dac930a5bd2d95446506cc0d77fdb",
+       img:"/honeyDu.png",
        href:"https://honeyDu.com"
       },
 ]
