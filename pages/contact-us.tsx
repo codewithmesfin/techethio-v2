@@ -1,6 +1,4 @@
 import React from "react";
-import Icon from "../components/icon";
-import Input from "../components/input";
 import { services } from "../utils/services.list";
 
 export default function ContactUs() {
@@ -21,30 +19,8 @@ export default function ContactUs() {
                 <div className="md:w-1/2 py-3">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffjKcz6Fuf9bwhTrf2t8QlxAmTOc6GvSi4Hf2EYW3BJa62IQ/viewform?embedded=true"
                         width="100%" height="1000"
-                     >Loading…</iframe>
-                    {/* <div className="md:shadow rounded p-3 md:p-6">
-                        <div className="grid md:grid-cols-2 gap-4">
-                            <div className="py-2">
-                                <Input label="Full Name" placeholder="Mesfin Tsegaye" />
-                            </div>
-                            <div className="py-2">
-                                <Input label="Email" placeholder="info@bizenforce.com" />
-                            </div>
-                            <div className="py-2">
-                                <Input label="Phone Number" placeholder="+251911522902" />
-                            </div>
-                            <div className="py-2">
-                                <Input label="Address" placeholder="Addis Ababa, Ethiopia" />
-                            </div>
-                        </div>
-                        <div className="py-2">
-                            <Input label="Message" placeholder="Write your message here ..." rows={6} isTextArea />
-                        </div>
-                        <div className="py-3 flex justify-between space-x-3 md:space-x-10">
-                            <button className="w-full text-white md:text-lg rounded-lg bg-blue-600 p-2 md:p-2.5">Submit</button>
-                            <button className="w-full text-white md:text-lg rounded-lg bg-red-600 p-2 md:p-2.5">Clear</button>
-                        </div>
-                    </div> */}
+                    >Loading…
+                    </iframe>
                 </div>
                 <div className="md:w-1/2 py-3 hidden md:block">
                     <div className="grid grid-cols-2 gap-4">
@@ -52,7 +28,9 @@ export default function ContactUs() {
                             services.map((x, i) => <div key={i} className="border border-gray-200 rounded p-3">
                                 <div className="md:flex md:space-x-6 items-center">
                                     <div className="hiddenmd:block w-[30%]">
-                                        <img className="w-32 h-16 hidden md:block rounded object-cover" src={x.img} alt="images" />
+                                        <img className="w-32 h-16 hidden md:block rounded object-cover"
+                                            src={x.img} 
+                                            alt="images" />
                                     </div>
                                     <div className="w-full w-[70%]">
                                         <h1 className="text-xs md:text-md font-extrabold">{x.title} </h1>

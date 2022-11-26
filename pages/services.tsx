@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import RichUsButtons from "../components/RichUsButtons";
 import { services } from "../utils/services.list";

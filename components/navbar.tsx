@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const navigation = [
     { name: 'About us', href: '/about' },
@@ -31,10 +32,11 @@ export default function Navbar() {
                                 <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                                     <div className="flex w-full items-center justify-between md:w-auto">
                                         <Link href="/" className='flex space-x-2 items-center'>
-                                            <img
+                                            <Image
                                                 alt="Your Company"
                                                 className="h-8 w-auto sm:h-10"
                                                 src="/logo.png"
+                                                width={50} height={50} 
                                             />
                                             <span className='text-2xl font-extrabold text-blue-600'>TechEthio</span>
                                         </Link>
@@ -84,10 +86,11 @@ export default function Navbar() {
                             <div className="overflow-hidden rounded-lg bg-white shadow-md">
                                 <div className="flex items-center justify-between px-5 pt-4">
                                    <Link href="/" className='flex space-x-2 items-center'>
-                                            <img
+                                            <Image
                                                 alt="Your Company"
                                                 className="h-8 w-auto sm:h-10"
                                                 src="/logo.png"
+                                                width={50} height={50}
                                             />
                                             <span className='text-2xl font-extrabold text-blue-600'>TechEthio</span>
                                         </Link>

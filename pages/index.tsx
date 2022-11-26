@@ -96,7 +96,7 @@ export default function Index() {
           <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
-              src="https://1.bp.blogspot.com/-Ri_u1jpr6DY/XqAh_QwLW6I/AAAAAAAABW4/uZiudzVo9GEKY9aBhJ28uZvTb73EtujZACLcBGAsYHQ/s1600/Art_Direction-106.jpg"
+              src="/index.jpeg"
               alt=""
             />
           </div>
@@ -146,7 +146,8 @@ export default function Index() {
               TechEthio develops apps and websites that are simple to use, powerful, and affordable that will fit your business needs. 
               We will provide you platforms that will engineering the rails on which  businesses flows because we believe a secure, trusted, reliable, consistent, and affordable business network will act as a catalyst to unlock new opportunities everywhere.
             </p>
-            <img className="max-h-[800px]" src="https://blog.vantagecircle.com/content/images/2020/08/technology-in-the-workplace.png" alt="" />
+            <img className="max-h-[800px]" 
+            src="/index2.png" alt="" />
             {
               sols2.map((x, i) => <div key={i} data-aos="zoom-in-down" data-aos-duration="3000" className="py-1">
                 <div className="md:flex items-center md:space-x-4">
@@ -187,10 +188,6 @@ export default function Index() {
       <section className='py-20'>
         <Team />
       </section>
-
-      {/* <section>
-       <RichUsButtons/>
-      </section> */}
     </div>
   )
 }
