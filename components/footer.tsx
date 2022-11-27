@@ -9,7 +9,7 @@ const Footer = () => {
             title: "Quick Links",
             children: [
                 {
-                    title: "About us", href: "/about-us",
+                    title: "About us", href: "/about",
                 },
                 { title: "Portfolio", href: "/portfolio" },
                 { title: "Services", href: "/services" },

@@ -28,10 +28,9 @@ export default function Portfolio() {
                                                 <img src={x.img} className="block rounded w-full h-96 transform duration-500 hover:scale-125" alt={x.title} />
                                             </picture>
                                             <figcaption className="absolute inset-x-0 bottom-0 h-20 transition-opacity duration-500 ease-in opacity-0 group-hover:opacity-100 overflow-hidden px-4 py-2 text-gray-100 bg-blue-700 text-center">
-                                                <Link href='/portfolio/kenema'>
+                                                <Link href={x.href}>
                                                     <h3 className="text-base leading-normal font-semibold my-1 text-gray-100">{x.title} </h3>
                                                 </Link>
-                                                {/* <small className="d-block">Branding</small> */}
                                             </figcaption>
                                         </div>
                                     </figure>
