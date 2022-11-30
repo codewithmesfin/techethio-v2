@@ -42,7 +42,7 @@ const teams: any = [
         bg: "white", color: "black-600",
         linkedin: "https://www.linkedin.com/in/netsanet-mesfin/",
         github: "https://github.com/freedoom16/",
-        bio: ""
+        bio: "Software developer with industry experience with building web applications"
     },
     {
         img: "/hiwot.jpeg",

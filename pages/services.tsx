@@ -8,7 +8,7 @@ export default function Services() {
             <div className=" md:max-w-[600px] py-10 mx-auto">
                 <h1 className="text-2xl md:text-6xl text-center font-extrabold py-4">Our Services </h1>
                 <p className="text-gray-500 py-3 text-center">
-                    We are working hard to make your life easier! The following are a few areas among what we are focusing to innovate the right solution!
+                    We are working hard to make your life easier! The following are a few key areas among what we are focusing to innovate the best possible solution!
                 </p>
             </div>
             <div className="flex flex-wrap  flex-row -mx-4 text-left">

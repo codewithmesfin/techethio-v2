@@ -27,7 +27,7 @@ export default function About() {
                 <div className="md:w-1/2">
                     <h1 className="text-2xl md:text-6xl font-extrabold">Who we are ? </h1>
                     <h1 className="text-xl font-semibold py-3">We are working hard to solves problems in Africa</h1>
-                    <p className="text-gray-800">We are a team of experienced professionals. We are growing. After several years of experienced in some of the high techlogies we recognized that our technical skills, experiences , and our African values ca be put togather to create technologies that will transform lives in Africa.</p>
+                    <p className="text-gray-800">We are a team of experienced professionals. We are growing. After several years of hard work and experienc in some of the high tech companies we recognized that our technical skills, experiences , and our African values ca be put togather to create technologies that will transform lives in Africa.</p>
                     <p className="text-gray-800">We believe that people are the secret to success. By empowering them, we create value for our customers and positively impact the world.</p>
                 </div>
                 <div className="md:w-1/2">

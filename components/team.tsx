@@ -10,7 +10,7 @@ export default function Team() {
                 Our Teams
             </h2>
             <p className="text-center">
-                We are a team of experienced professionals. We are growing. After several years of experienced in some of the high techlogies we recognized that our technical skills, experiences , and our African values ca be put togather to create technologies that will transform lives in Africa.
+                We are a team of experienced professionals. We are growing. After several years of hard work and experience in some of the high tech companies we recognized that our technical skills, experiences , and our African values ca be put togather to create technologies that will transform lives in Africa.
             </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

@@ -19,7 +19,7 @@ export default function Careers() {
                             We are hiring !
                         </h1>
                         <p className="text-gray-500">
-                            TechEthio is hiring Software Engineers and Digital Marketing Experts. We are looking for a project manager experinced in Scrum and Agile Software Development Life Cycl; Software Developers in experinced in Vue js and Nuxt js, React and Next js, Flutter and Dart, Node js, PHP and Laravel, MySQL, MongoDB, Firebase, AWS; Certified Digital Marketing Experts experinced in Digital Marketing strategies, Marketing tools, and Customer Relation Management(CRM).
+                            TechEthio is hiring Software Engineers and Digital Marketing Experts. We are looking for a project manager experinced in Scrum and Agile Software Development Life CyclE; Software Developers in experinced in Vue js and Nuxt js, React and Next js, Flutter and Dart, Node js, PHP and Laravel, MySQL, MongoDB, Firebase, AWS; Certified Digital Marketing Experts experinced in Digital Marketing strategies, Marketing tools, and Customer Relation Management(CRM).
                         </p>
                     </div>
                 </div>

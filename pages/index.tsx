@@ -143,8 +143,8 @@ export default function Index() {
           <div className="md:w-1/2 px-3">
             <h1 className="text-xl md:text-5xl font-extrabold py-3">Learn what TechEthio can help you.</h1>
             <p className="py-3 pb-10">
-              TechEthio develops apps and websites that are simple to use, powerful, and affordable that will fit your business needs. 
-              We will provide you platforms that will engineering the rails on which  businesses flows because we believe a secure, trusted, reliable, consistent, and affordable business network will act as a catalyst to unlock new opportunities everywhere.
+              TechEthio develops apps and websites that are simple to use, powerful, and affordable system that will fit your business needs. 
+              We will provide you platforms that will engineering the rails on which your business flows because we believe a secure, trusted, reliable, consistent, and affordable business network will act as a catalyst to unlock new opportunities everywhere.
             </p>
             <img className="max-h-[800px]" 
             src="/index2.png" alt="" />
