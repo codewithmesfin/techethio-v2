@@ -49,8 +49,8 @@ const teams: any = [
         name: "Hiwot Zelalem",
         role: "React Developer",
         bg: "white", color: "black-600",
-        linkedin: "https://www.linkedin.com/in/netsanet-mesfin/",
-        github: "https://github.com/freedoom16/",
+        linkedin: "https://www.linkedin.com/in/hiwot-zelalem-8b2995218/",
+        github: "https://github.com/hiwiehk19",
         bio: "React fan Frontend developer with team playing skills, focused on achieving project objectives with speed and accuracy"
     },
 ]
